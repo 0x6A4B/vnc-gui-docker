@@ -71,6 +71,18 @@ npx playwright test && npx playwright show-report
 npx playwright codegen yle.fi
 ```
 
+Headless:
+
+https://playwright.dev/docs/api/class-testoptions#test-options-headless
+
+In the playwright.config.(ts|js)  
+Add to the use: block
+```
+#use: {
+    headless: false     # for non-headless
+#  },
+```
+
 ### Run playwright
 
 ```
